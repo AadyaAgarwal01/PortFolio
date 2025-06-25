@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aadya Agarwal's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Aadya Agarwal, a Computer Science student skilled in UI/UX, development, and problem-solving."
+    />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <video autoplay muted loop id="bg-video">
+      <source src="n1.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <main>
+      <header class="main-header">
+        <nav class="main-nav" style="display: flex; gap: 60px">
+          <a href="#aboutme">About</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+        </nav>
+      </header>
+
+      <section class="container" aria-label="Portfolio">
+        <div class="title-section">
+          <h1>I AM <span id="changing-title"></span></h1>
+        </div>
+
+        <div class="cards">
+          <article class="flip-card about-me-card" tabindex="0">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="pic.jpeg"
+                  alt="Profile Image"
+                  class="profile-image"
+                  loading="lazy"
+                />
+                <h2 class="card-title">About Me</h2>
+              </div>
+              <div class="flip-card-back">
+                <button class="back-button" aria-label="Back">
+                  <span class="material-icons">arrow_back</span>
+                </button>
+                <h3>About Me</h3>
+                <p>
+                  Specialized in UI/UX and problem-solving with analytical
+                  thinking.
+                </p>
+                <a href="#aboutme" class="topic-link">Go to Topic</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Other Cards -->
+          <article class="flip-card" tabindex="0">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h2 class="card-title">Experience</h2>
+                <p class="card-description">
+                  Workshops, internships, and hackathons.
+                </p>
+              </div>
+              <div class="flip-card-back">
+                <button class="back-button">
+                  <span class="material-icons">arrow_back</span>
+                </button>
+                <h3>Experience</h3>
+                <a href="#experience" class="topic-link">Go to Topic</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="flip-card" tabindex="0">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h2 class="card-title">Education</h2>
+                <p class="card-description">Pursuing B.Tech in CS.</p>
+              </div>
+              <div class="flip-card-back">
+                <button class="back-button">
+                  <span class="material-icons">arrow_back</span>
+                </button>
+                <h3>Education</h3>
+                <a href="#education" class="topic-link">Go to Topic</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="flip-card" tabindex="0">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h2 class="card-title">Skills</h2>
+                <p class="card-description">
+                  Java, HTML, CSS, JS, SQL and more.
+                </p>
+              </div>
+              <div class="flip-card-back">
+                <button class="back-button">
+                  <span class="material-icons">arrow_back</span>
+                </button>
+                <h3>Skills</h3>
+                <a href="#skills" class="topic-link">Go to Topic</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <section class="topics-section">
+          <article id="aboutme" class="topic">
+            <h2>About Me</h2>
+            <p>
+              Innovative and detail-oriented Computer Science student with a
+              passion for problem-solving, UI/UX design, and application
+              development. Proficient in Canva and UI/UX design, I specialize in
+              creating intuitive and visually appealing digital experiences.
+              With strong analytical skills, I focus on building scalable,
+              high-performance applications. Currently seeking opportunities to
+              apply my skills in a dynamic and growth-oriented environment.
+            </p>
+          </article>
+
+          <article id="education" class="topic">
+            <h2>Education</h2>
+            <p>
+              Gold Medalist in Mathematics and Science Olympiad (5th
+              Standard).<br />
+              Participated in the Sally Ride EarthCam Project (2021), exploring
+              space imaging and analysis.<br />
+              Completed Class 11 & 12 from Ashok Hall Girls’ Residential School
+              (ISC Affiliated).<br />
+              CLASS X: 93.5%<br />
+              CLASS XII: 92.5%<br />
+              Qualified JEE Mains & JEE Advanced 2024.<br />
+              Currently pursuing B.Tech (2024–2028) in Computer Science at Rajiv
+              Gandhi Institute of Petroleum Technology (RGIPT).<br />
+              CPI: 9.59
+            </p>
+          </article>
+
+          <article id="experience" class="topic">
+            <h2>Experience</h2>
+            <p>
+              <strong>Workshops:</strong><br />
+              - Mastered IoT innovation in the Hot-Air Balloon Challenge by IIT
+              Bombay<br />
+              - Showcased design skills in the Creative CAD Challenge<br /><br />
+
+              <strong>College Experience:</strong><br />
+              - Intern at YAPASSIO (real-world industry exposure)<br />
+              - Selected for the prestigious Astronomical Club under the SNT
+              Council<br /><br />
+
+              <strong>Hackathons:</strong><br />
+              - HACKMATRIX (IIT Patna) Hackathon<br />
+              - BHASHA BANDHU Hackathon (linguistic accessibility)
+            </p>
+          </article>
+
+          <article id="skills" class="topic">
+            <h2>Skills</h2>
+            <p>
+              <strong>Technical:</strong><br />
+              - Programming: Java, C, HTML, CSS, JavaScript, SQL, Pandas<br />
+              - Web Development: Frontend<br /><br />
+
+              <strong>Languages:</strong><br />
+              - Fluent: English, Hindi<br />
+              - Proficient: German<br /><br />
+
+              <strong>Other:</strong><br />
+              - Horse Riding: Experienced in horseback riding, including
+              handling and control
+            </p>
+          </article>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div style="text-align: center; padding: 1px; color: #fff">
+        <p>📞 Contact: <strong>+919411735577</strong></p>
+        <div style="margin-top: 10px">
+          <a
+            href="http://github.com/AadyaAgarwal01"
+            target="_blank"
+            style="margin: 0 10px"
+          >
+            <img
+              src="github_536452.png"
+              alt="GitHub"
+              width="32"
+              height="32"
+              style="vertical-align: middle"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/aadya-agarwal-a4780a330/"
+            target="_blank"
+            style="margin: 0 10px"
+          >
+            <img
+              src="linkedin_1400848.png"
+              alt="linkedin"
+              width="32"
+              height="32"
+              style="vertical-align: middle"
+            />
+          </a>
+        </div>
+        <p style="margin-top: 10px">
+          &copy; 2025 Aadya Agarwal. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
