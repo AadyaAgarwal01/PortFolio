@@ -21,6 +21,6 @@ This website showcases who I am, what I do, and what I’ve built — all with a
 - Interactive animations and transitions
 - Sections for About Me, Skills, Projects, and Contact
 - Smooth scrolling navigation and sticky header
-- Hamburger menu for mobile view
+- glassmorphism css
 
 ---
